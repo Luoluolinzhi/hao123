@@ -1,0 +1,1169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>hao到家</title>
+	<script type="text/javascript" src="./jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+</head>
+<body>
+	<div class="head  clearfix">
+		<div class="head-content clearfix">
+			<div class="head-im">
+				<a href="#" ><img src="./image/hao-logo.d48263d25.png" class="a"></a>
+				<a href="#" ><img src="./image/ba071ea452ea5cc5e4c8e0046c7ae143.jpg" class="a"></a>
+			</div>
+			<div class="daohang opacity">
+				<img src="./image/icon-grid.0ca60109d.png">
+				<h6>导航</h6>
+				<div class="triangle-down"></div><!--   旋转 transform: rotateX(180deg); -->
+				
+				<!-- 隐藏的列表 -->
+				<div class="daohang-bar hide">
+					<div class="daohang-content clearfix">
+						<div class="bar-title">
+							<h6>休闲娱乐</h6>
+						</div>
+						<div class="bar-content">
+							<ul>
+								<li><a href="#">电影</a><a href="#">综艺</a><a href="#">电影</a><a href="#">搞笑</a></li>
+								<li><a href="#">直播</a><a href="#">视频</a><a href="#">页游</a><a href="#">明星</a></li>
+								<li><a href="#">交友</a><a href="#">体育</a><a href="#">足球</a><a href="#">NBA</a></li>
+								<li><a href="#">星座</a><a href="#">电视剧</a><a href="#">小游戏</a></li>
+							</ul>
+						</div>
+						<hr>
+						<div class="bar-title">
+							<h6>休闲娱乐</h6>
+						</div>
+						<div class="bar-content">
+							<ul>
+								<li><a href="#">电影</a><a href="#">综艺</a><a href="#">电影</a><a href="#">搞笑</a></li>
+								<li><a href="#">直播</a><a href="#">视频</a><a href="#">页游</a><a href="#">明星</a></li>
+								<li><a href="#">交友</a><a href="#">体育</a><a href="#">足球</a><a href="#">NBA</a></li>
+								<li><a href="#">星座</a><a href="#">电视剧</a><a href="#">小游戏</a></li>
+							</ul>
+						</div>
+						<hr>
+						<div class="bar-title">
+							<h6>休闲娱乐</h6>
+						</div>
+						<div class="bar-content">
+							<ul>
+								<li><a href="#">电影</a><a href="#">综艺</a><a href="#">电影</a><a href="#">搞笑</a></li>
+								<li><a href="#">直播</a><a href="#">视频</a><a href="#">页游</a><a href="#">明星</a></li>
+								<li><a href="#">交友</a><a href="#">体育</a><a href="#">足球</a><a href="#">NBA</a></li>
+								<li><a href="#">星座</a><a href="#">电视剧</a><a href="#">小游戏</a></li>
+							</ul>
+						</div>
+					</div><!-- daohang-content-->
+				</div><!-- daohang-bar -->
+			</div><!-- daohang -->
+			<div class="yijian opacity">
+				<a href="#" >
+					<img src="./image/pc_ads_bear.1x.png">
+					<h6>一键登录</h6>
+				</a> <!-- yijian -->
+			</div>
+			<div class="hao opacity">
+				<a href="#" >
+					<img src="./image/phone.4d2bc1203.png">
+					<h6>hao123客户端</h6>
+				</a> <!-- hao --> 	
+				<div class="hao-img hide">
+					<img src="./image/e247bcb32d4a007b0a784d709a12a049.png">
+					<h6>扫码有惊喜</h6>
+				</div><!-- hao-img -->
+			</div>
+			
+			<div class="home">
+				<a href="#">
+					<img src="./image/home.77e4b61f6.png">
+				</a> <!-- home --> 
+			</div>
+			<input type="input" name="" class="find" placeholder="美国出现僵尸浣熊">
+			<div class="find-img">
+				<a href="#" >
+					<img src="./image/search-submit.a72c28474.png">
+				</a> <!-- find-img -->
+			</div>
+			<script type="text/javascript">
+				$(".daohang").mouseover(function(){
+					$(".daohang").removeClass("opacity");
+					$(".daohang").css({"background":"rgb(17,136,96)"});
+					$(".triangle-down").css({"transform":"rotateX(180deg)"});
+					$(".daohang-bar").removeClass("hide").addClass("show");
+				});
+				$(".daohang").mouseout(function(){
+					$(".daohang").addClass("opacity");
+					$(".daohang").css({"background":"none"});
+					$(".triangle-down").css({"transform":"rotateY(180deg)"});
+					$(".daohang-bar").removeClass("show").addClass("hide");
+				});
+				$(".yijian").mouseover(function(){
+					$(".yijian").removeClass("opacity");
+					$(".yijian").css({"background":"rgb(17,136,96)"});
+					$(".yijian h6").css({'text-decoration': 'underline'});
+				});
+				$(".yijian").mouseout(function(){
+					$(".yijian").addClass("opacity");
+					$(".yijian").css({"background":"none"});
+					$(".yijian h6").css({'text-decoration': 'none'});
+				});
+				$(".hao").mouseover(function(){
+					$(".hao").removeClass("opacity");
+					$(".hao").css({"background":"rgb(17,136,96)"});
+					$(".hao-img").removeClass("hide").addClass("show");
+				});
+				$(".hao").mouseout(function(){
+					$(".hao").addClass("opacity");
+					$(".hao").css({"background":"none"});
+					$(".hao-img").removeClass("show").addClass("hide");
+				});
+				$(".home").mouseover(function(){
+					$(".home").removeClass("opacity");
+					$(".home").css({"background":"rgb(17,136,96)"});
+				});
+				$(".home").mouseout(function(){
+					$(".home").addClass("opacity");
+					$(".home").css({"background":"none"});
+				});
+			</script>
+		</div><!-- head-content -->
+			<div class="head-bar">
+				<ul>
+					<li class="h"><a href="#">首页</a></li>
+					<li class="y"><a href="#">实用查询</a></li>
+					<li class="y"><a href="#">快递·到家</a></li>
+					<li class="y"><a href="#">美食</a></li>
+					<li class="y"><a href="#">健康</a></li>
+					<li class="y"><a href="#">交通违章查询</a></li>
+				</ul>
+			</div><!-- head-bar -->
+	</div><!-- head -->
+	<div class="content">
+		<div class="content-c clearfix">
+			<div class="content-left clearfix">
+				<div class="content-left-list clearfix">
+					<ul>
+						<li class="bg-white"><a href="#">电影·订座</a><a href="#"><img src="./image/hot.png"></a></li>
+						<li><a href="#">美食·外卖</a></li>
+						<li><a href="#">家政·按摩</a></li>
+						<li><a href="#">机票·火车票</a></li>
+						<li><a href="#">门票·度假</a></li>
+						<li><a href="#">快递·查违章</a></li>
+					</ul>
+				</div><!-- content-left-list -->
+				<div class="img-scroll-botton">
+					<button class="scroll-left"><img src="./image/a-left.40f0bff.png"></button>
+					<button class="scroll-right"><img src="./image/a-right.c4ea321.png"></button>
+					<div class="img-scroll">
+						<ul class="clearfix">
+							<li>
+								<img src="./image/b03533fa828ba61e2f12e3214d34970a304e593b.jpg">
+								<img src="./image/b90e7bec54e736d1b345601097504fc2d5626950.jpg">
+								<img src="./image/b2de9c82d158ccbf6bc4163915d8bc3eb13541bc.jpg">
+							</li>
+							<li>
+								<img src="./image/b7003af33a87e9500ae0d5621c385343faf2b4cc.jpg">
+								<img src="./image/bf096b63f6246b6013d59a7ae7f81a4c500fa2e0.jpg">
+								<img src="./image/c2fdfc039245d6885e05bfbda8c27d1ed21b24a7.jpg">
+							</li>
+					 		<li>
+								<img src="./image/c8177f3e6709c93dd85331e2933df8dcd1005405.jpg">
+								<img src="./image/d01373f082025aaf9c1ae7dff7edab64034f1afd.jpg">
+								<img src="./image/fc1f4134970a304e7154c3dcddc8a786c9175ca5.jpg">
+							</li>
+						</ul>
+					</div><!-- img-scroll -->
+				</div><!-- img-scroll-botton -->
+				<div class="select-area">
+					<div class="select-one">
+						<p>吉林</p>
+					</div>
+					<div class="select-one-list">
+						<ul>
+							<li class="list-first"><a href="#">热门</a></li>
+							<li><a href="#">A-G</a></li>
+							<li><a href="#">H-L</a></li>
+							<li><a href="#">M-T</a></li>
+							<li><a href="#">W-Z</a></li>	
+						</ul>
+						<input type="input" name="" placeholder="直接输入城市或城市拼音">
+						<div class="list-address">
+							<a href="#">北京</a><a href="#">北京</a><a href="#">北京</a><a href="#">北京</a><a href="#">北京</a><a href="#">北京</a><a href="#">北京</a><a href="#">北京</a><a href="#">北京</a><a href="#">北京</a>
+						</div>
+					</div>
+					<div class="select-two">
+						<p>选影院</p>
+					</div>
+					<div class="select-two-list">
+						
+					</div>
+					<div class="select-three">
+						<p>选影片</p>
+					</div>
+					<div class="select-three-list">
+						
+					</div>
+					<a href="#" class="xuanzuo">选座订票</a>
+				</div><!-- select-area -->
+				<script type="text/javascript">
+					$(function(){
+ 						$(".scroll-right").click(function(){
+						$(".img-scroll ul").animate({
+							left:'-=430px'
+							},500,function(){
+								$(".img-scroll ul").css({"left":"-430px"});
+								$(".img-scroll ul li").first().insertAfter($(".img-scroll ul li").last());
+							});
+						});
+					$(".scroll-left").click(function(){
+						$(".img-scroll ul").animate({
+							left:'+=430px'
+								},500,function(){
+									$('.img-scroll ul').css({"left":"-430px"});
+									$('.img-scroll ul li').last().insertBefore($(".img-scroll ul li").first());
+							});
+						});	
+ 					});
+					$(".select-one").click(function(){
+						$(".select-one-list").toggleClass("list-hide");
+					});
+					$(".select-two").click(function(){
+						$(".select-two-list").toggleClass("list-hide");
+					});
+					$(".select-three").click(function(){
+						$(".select-three-list").toggleClass("list-hide");
+					});
+				</script>
+			</div><!-- content-left -->
+			<div class="content-right">
+				<h2><a href="#" class="gao">一份高清无码的“催情食物”大全</a></h2>
+				<ul class="rrrr">
+					<li><a href="#" class="r">癌症是吃出来的？</a></li>
+					<li><a href="#">常吃他预防感冒</a></li>
+					<li><a href="#">每片茶叶都是宝</a></li>
+				</ul>
+				<h2><a href="#" class="gao">人参吃一斤，不如它一两！胜过虫草燕窝！</a></h2>
+				<ul class="rrrr">
+					<li><a href="#" class="r rr">"催人老"的食物<img src="./image/re.png"></a></li>
+					<li><a href="#">赏花调养月经病</a></li>
+					<li ><a href="#">春天必吃黄金野菜</a></li>
+				</ul>
+				<hr>
+				<ul class="rrr">
+					<li><a href="#">春季最适合吃什么养生</a></li>
+					<li><a href="#">更年期女人经常头晕的元凶</a></li>
+					<li><a href="#">骨头汤不补钙！给孩子补钙</a></li>
+					<li><a href="#" class="rr">瓜果蔬菜治病？维<img src="./image/re.png"></a></li>
+				</ul>
+				<ul class="rrr">
+					<li><a href="#">男人常吃8种食物</a></li>
+					<li><a href="#" class="rr">茼蒿被称为“皇帝菜”<img src="./image/re.png"></a></li>
+					<li><a href="#">骨头汤不补钙！给孩子补钙</a></li>
+					<li><a href="#">瓜果蔬菜治病？维</a></li>
+				</ul>
+			</div><!-- content-right -->
+		</div><!-- content-c -->
+	</div><!-- content -->
+	<div class="content-d">
+		<div class="content-d-left">
+			<div class="left-select-list">
+				<ul>
+					<li class="selected"><a href="#">热门</a></li>
+					<li><a href="#">本地</a></li>
+					<li><a href="#">养生</a></li>
+					<li><a href="#">女性</a></li>
+					<li><a href="#">美食</a></li>
+				</ul>
+			</div><!-- left-select-list -->
+			<div class="list-son">
+				<div class="list-son-one">
+					<div class="list-son-a clearfix">
+						<div class="list-son-a-img">
+							<a href="#"><img src="./image/u=359765056,1943864196&fm=173&app=25&f=JPEG.jpg"></a>
+						</div>
+						<div class="list-son-a-content">
+							<h2><a href="#">同样是绳子上睡觉，刘亦菲李若彤陈妍希差距不是一点点</a></h2>
+							<p>
+								小龙女一直是一个经典的角色，扮演过这个角色比较有名的就是李若彤、刘亦菲和陈妍希了，三个小龙女风格迥异。最原始的是李若彤版的小龙女，她和古天乐合作的《神雕侠侣》成为经典，前段...
+								<a href="#">[详情]</a>
+							</p>
+							<p>来源：据说娱乐</p>
+						</div><!-- list-son-a-content -->
+					</div><!-- list-son-a -->
+					<div class="list-son-a clearfix">
+						<div class="list-son-a-img">
+							<a href="#"><img src="./image/u=2165607371,2044228262&fm=173&app=25&f=JPEG.jpg"></a>
+						</div>
+						<div class="list-son-a-content">
+							<h2><a href="#">撒贝宁爱了20年的女人，颜值逆天碾压章子怡，难怪他迟迟不愿公开</a></h2>
+							<p>
+								大家对央视主持人的一般印象就是一本正经，比较官方，但有个主持人的主持风格让大家都很意外，他就是撒贝宁，撒贝宁也是央视著名的主持人之一，但他一改央视主持的严肃，反而颇具自己的...
+								<a href="#">[详情]</a>
+							</p>
+							<p>来源：随煮娱</p>
+						</div><!-- list-son-a-content -->
+					</div><!-- list-son-a -->
+					<div class="list-son-a clearfix">
+						<div class="list-son-a-img">
+							<a href="#"><img src="./image/u=2842837368,2224210375&fm=173&app=25&f=JPEG.jpg"></a>
+						</div>
+						<div class="list-son-a-content">
+							<h2><a href="#">曾公开拒绝范冰冰，如今低调娶护士，出道多年无绯闻成清流！</a></h2>
+							<p>
+								韩青，1969年7月27日生于北京，中国知名男演员，是中国国家话剧院演员。首参演电视剧《赌王风云》电视剧《赌王风云而正式出道开始走进观众的视线。之后韩青在《咱们结婚吧》、《...
+								<a href="#">[详情]</a>
+							</p>
+							<p>来源：萱妈妈扒娱乐</p>
+						</div><!-- list-son-a-content -->
+					</div><!-- list-son-a -->
+					<div class="list-son-a clearfix">
+						<div class="list-son-a-img">
+							<a href="#"><img src="./image/u=1570526862,2158072572&fm=173&app=25&f=JPEG.jpg"></a>
+						</div>
+						<div class="list-son-a-content">
+							<h2><a href="#">谢霆锋说出男艺人不愿和杨幂拍亲热戏的原因</a></h2>
+							<p>
+							杨幂作为时下当红女星，被称为85后小花旦，在80后心中是女神一般的存在，近几年在娱乐圈关注度只增不减人气极高，就连王思聪也是杨幂的粉丝，也正因为如此，不少网友和粉丝很好奇议...
+								<a href="#">[详情]</a>
+							</p>
+							<p>来源：大娱小众</p>
+						</div><!-- list-son-a-content -->
+					</div><!-- list-son-a -->
+					<div class="list-son-a clearfix">
+						<div class="list-son-a-img">
+							<a href="#"><img src="./image/u=2475699373,2105224207&fm=173&app=25&f=JPEG.jpg"></a>
+						</div>
+						<div class="list-son-a-content">
+							<h2><a href="#">开心一刻：老爷子对老婆动了歪念，一直想不到好办法，直到那天</a></h2>
+							<p>
+								【开心一刻由西江编辑】本人出租车司机一名，昨天晚上两个男女学生打的，我们谈好的30，上车后女的说：快点吧，再晚点学校大门就关了!男的说：师傅，我先给你车费吧!他他掏出一张十块...
+								<a href="#">[详情]</a>
+							</p>
+							<p>来源：西江印记</p>
+						</div><!-- list-son-a-content -->
+					</div><!-- list-son-a -->
+					<div class="list-son-b">
+						<div class="list-son-b-img slide-a">
+							<img src="./image/u=1456625515,1958668986&fm=76.jpg" >
+							<a href="#">鼠标</a>
+							<div class="slide-div slide-div-g hide">
+								<div class="slide-div-a"><a href="#">鼠标</a></div>
+								<div class="slide-div-b">
+									<a href="#">百度一下</a>
+								</div>
+							</div><!-- slide-div -->
+						</div><!-- list-son-b-img -->
+						<div class="list-son-b-img slide-b">
+							<img src="./image/u=3543036753,3688905161&fm=76.jpg">
+							<a href="#">泰国六日游</a>
+							<div class="slide-div slide-div-h hide">
+								<div class="slide-div-a"><a href="#">泰国六日游</a></div>
+								<div class="slide-div-b">
+									<a href="#">百度一下</a>
+								</div>
+							</div><!-- slide-div -->
+						</div><!-- list-son-b-img -->
+						<div class="list-son-b-img slide-c">
+							<img src="./image/u=1350939149,1882009192&fm=76.jpg">
+							<a href="#">英语的培训机构</a>
+							<div class="slide-div slide-div-c hide">
+								<div class="slide-div-a"><a href="#">英语的培训机构</a></div>
+								<div class="slide-div-b">
+									<a href="#">百度一下</a>
+								</div>
+							</div><!-- slide-div -->
+						</div><!-- list-son-b-img -->
+						<div class="list-son-b-img slide-d">
+							<img src="./image/u=1126323125,1525201882&fm=76.jpg">
+							<a href="#">鼠标排行</a>
+							<div class="slide-div slide-div-d hide">
+								<div class="slide-div-a"><a href="#">鼠标排行</a></div>
+								<div class="slide-div-b">
+									<a href="#">百度一下</a>
+								</div>
+							</div><!-- slide-div -->
+						</div><!-- list-son-b-img -->
+						<div class="list-son-b-img slide-e">
+							<img src="./image/u=716726343,3919697061&fm=76.jpg">
+							<a href="#">桥头排骨</a>
+							<div class="slide-div slide-div-e hide">
+								<div class="slide-div-a"><a href="#">桥头排骨</a></div>
+								<div class="slide-div-b">
+									<a href="#">百度一下</a>
+								</div>
+							</div><!-- slide-div -->
+						</div><!-- list-son-b-img -->
+						<div class="list-son-b-img slide-f">
+							<img src="./image/u=1511741520,2095785594&fm=76.jpg">
+							<a href="#">杭州一日游</a>
+							<div class="slide-div slide-div-f hide">
+								<div class="slide-div-a"><a href="#">杭州一日游</a></div>
+								<div class="slide-div-b">
+									<a href="#">百度一下</a>
+								</div>
+							</div><!-- slide-div -->
+						</div><!-- list-son-b-img -->
+					</div><!-- list-son-b -->
+				</div><!-- list-son-one -->
+				<div class="list-son-one hide">
+					<div class="list-son-a clearfix">
+						<div class="list-son-a-img">
+							<a href="#"><img src="./image/u=516029285,3630444134&fm=173&app=25&f=JPEG.jpg"></a>
+						</div>
+						<div class="list-son-a-content">
+							<h2><a href="#">关晓彤韩雪用成绩证明自己真学霸！可没想到杨幂黄磊的分数亮瞎眼</a></h2>
+							<p>
+								“国民闺女”关晓彤不仅人漂亮，上学期间更是一名学霸。作为一个童星还是个知名艺人，在繁忙的拍戏过程中能兼顾学习，并且以总成绩第一名的成绩考入北影，那是相当了不得的事情。她还以...
+								<a href="#">[详情]</a>
+							</p>
+							<p>来源：据说娱乐</p>
+						</div><!-- list-son-a-content -->
+					</div><!-- list-son-a -->
+					<div class="list-son-a clearfix">
+						<div class="list-son-a-img">
+							<a href="#"><img src="./image/u=1097772478,2989105777&fm=173&app=25&f=JPEG.jpg"></a>
+						</div>
+						<div class="list-son-a-content">
+							<h2><a href="#">毛岸英的妻子今何在？再婚后生4个子女，50年后携儿女祭拜</a></h2>
+							<p>
+								金日成曾说道：毛泽东同志是伟大的国际主义典范和楷模，为了中国人民的解放事业，他牺牲了包括妻子在内至亲至爱的五位亲人；为了朝鲜人民的反侵略和保卫世界和平，他又把最疼爱的长子毛......
+								<a href="#">[详情]</a>
+							</p>
+							<p>来源：随煮娱</p>
+						</div><!-- list-son-a-content -->
+					</div><!-- list-son-a -->
+					<div class="list-son-a clearfix">
+						<div class="list-son-a-img">
+							<a href="#"><img src="./image/u=2842837368,2224210375&fm=173&app=25&f=JPEG.jpg"></a>
+						</div>
+						<div class="list-son-a-content">
+							<h2><a href="#">曾公开拒绝范冰冰，如今低调娶护士，出道多年无绯闻成清流！</a></h2>
+							<p>
+								韩青，1969年7月27日生于北京，中国知名男演员，是中国国家话剧院演员。首参演电视剧《赌王风云》电视剧《赌王风云而正式出道开始走进观众的视线。之后韩青在《咱们结婚吧》、《...
+								<a href="#">[详情]</a>
+							</p>
+							<p>来源：萱妈妈扒娱乐</p>
+						</div><!-- list-son-a-content -->
+					</div><!-- list-son-a -->
+					<div class="list-son-a clearfix">
+						<div class="list-son-a-img">
+							<a href="#"><img src="./image/u=1570526862,2158072572&fm=173&app=25&f=JPEG.jpg"></a>
+						</div>
+						<div class="list-son-a-content">
+							<h2><a href="#">谢霆锋说出男艺人不愿和杨幂拍亲热戏的原因</a></h2>
+							<p>
+							杨幂作为时下当红女星，被称为85后小花旦，在80后心中是女神一般的存在，近几年在娱乐圈关注度只增不减人气极高，就连王思聪也是杨幂的粉丝，也正因为如此，不少网友和粉丝很好奇议...
+								<a href="#">[详情]</a>
+							</p>
+							<p>来源：大娱小众</p>
+						</div><!-- list-son-a-content -->
+					</div><!-- list-son-a -->
+					<div class="list-son-a clearfix">
+						<div class="list-son-a-img">
+							<a href="#"><img src="./image/u=2475699373,2105224207&fm=173&app=25&f=JPEG.jpg"></a>
+						</div>
+						<div class="list-son-a-content">
+							<h2><a href="#">开心一刻：老爷子对老婆动了歪念，一直想不到好办法，直到那天</a></h2>
+							<p>
+								【开心一刻由西江编辑】本人出租车司机一名，昨天晚上两个男女学生打的，我们谈好的30，上车后女的说：快点吧，再晚点学校大门就关了!男的说：师傅，我先给你车费吧!他他掏出一张十块...
+								<a href="#">[详情]</a>
+							</p>
+							<p>来源：西江印记</p>
+						</div><!-- list-son-a-content -->
+					</div><!-- list-son-a -->
+					<div class="list-son-b">
+						<div class="list-son-b-img slide-a">
+							<img src="./image/u=1456625515,1958668986&fm=76.jpg" >
+							<a href="#">鼠标</a>
+							<div class="slide-div slide-div-g hide">
+								<div class="slide-div-a"><a href="#">鼠标</a></div>
+								<div class="slide-div-b">
+									<a href="#">百度一下</a>
+								</div>
+							</div><!-- slide-div -->
+						</div><!-- list-son-b-img -->
+						<div class="list-son-b-img slide-b">
+							<img src="./image/u=3543036753,3688905161&fm=76.jpg">
+							<a href="#">泰国六日游</a>
+							<div class="slide-div slide-div-h hide">
+								<div class="slide-div-a"><a href="#">泰国六日游</a></div>
+								<div class="slide-div-b">
+									<a href="#">百度一下</a>
+								</div>
+							</div><!-- slide-div -->
+						</div><!-- list-son-b-img -->
+						<div class="list-son-b-img slide-c">
+							<img src="./image/u=1350939149,1882009192&fm=76.jpg">
+							<a href="#">英语的培训机构</a>
+							<div class="slide-div slide-div-c hide">
+								<div class="slide-div-a"><a href="#">英语的培训机构</a></div>
+								<div class="slide-div-b">
+									<a href="#">百度一下</a>
+								</div>
+							</div><!-- slide-div -->
+						</div><!-- list-son-b-img -->
+						<div class="list-son-b-img slide-d">
+							<img src="./image/u=1126323125,1525201882&fm=76.jpg">
+							<a href="#">鼠标排行</a>
+							<div class="slide-div slide-div-d hide">
+								<div class="slide-div-a"><a href="#">鼠标排行</a></div>
+								<div class="slide-div-b">
+									<a href="#">百度一下</a>
+								</div>
+							</div><!-- slide-div -->
+						</div><!-- list-son-b-img -->
+						<div class="list-son-b-img slide-e">
+							<img src="./image/u=716726343,3919697061&fm=76.jpg">
+							<a href="#">桥头排骨</a>
+							<div class="slide-div slide-div-e hide">
+								<div class="slide-div-a"><a href="#">桥头排骨</a></div>
+								<div class="slide-div-b">
+									<a href="#">百度一下</a>
+								</div>
+							</div><!-- slide-div -->
+						</div><!-- list-son-b-img -->
+						<div class="list-son-b-img slide-f">
+							<img src="./image/u=1511741520,2095785594&fm=76.jpg">
+							<a href="#">杭州一日游</a>
+							<div class="slide-div slide-div-f hide">
+								<div class="slide-div-a"><a href="#">杭州一日游</a></div>
+								<div class="slide-div-b">
+									<a href="#">百度一下</a>
+								</div>
+							</div><!-- slide-div -->
+						</div><!-- list-son-b-img -->
+					</div><!-- list-son-b -->
+				</div><!-- list-son-one -->
+				<div class="list-son-one hide">
+					<div class="list-son-a clearfix">
+						<div class="list-son-a-img">
+							<a href="#"><img src="./image/u=2821898255,2869151179&fm=173&app=25&f=JPEG.jpg"></a>
+						</div>
+						<div class="list-son-a-content">
+							<h2><a href="#">高云翔案件女主角的私人生活曝光，他怎么和女儿交代？</a></h2>
+							<p>
+								这些天，高云翔的案件备受关注，无论是媒体还是粉丝都在等着第一手的消息。作为一名路人，案件发现至今，你怎么看？高云翔的监狱生活照曝光之后，大家发现其实他的生活条件还好，只不过...
+								<a href="#">[详情]</a>
+							</p>
+							<p>来源：据说娱乐</p>
+						</div><!-- list-son-a-content -->
+					</div><!-- list-son-a -->
+					<div class="list-son-a clearfix">
+						<div class="list-son-a-img">
+							<a href="#"><img src="./image/u=641601879,2775180592&fm=173&app=25&f=JPEG.jpg"></a>
+						</div>
+						<div class="list-son-a-content">
+							<h2><a href="#">55岁冯远征与63岁妻子梁丹妮近照，网友完全看不出年龄的差距！</a></h2>
+							<p>
+								演艺圈有很多演技很好但却十分低调的演员，冯远征便是其中一位。说起冯远征，就不得不提及那部很多小伙伴的童年阴影《不要和陌生人说话》了，冯远征在剧中饰演了一位具有暴力倾向的丈夫...
+								<a href="#">[详情]</a>
+							</p>
+							<p>来源：随煮娱</p>
+						</div><!-- list-son-a-content -->
+					</div><!-- list-son-a -->
+					<div class="list-son-a clearfix">
+						<div class="list-son-a-img">
+							<a href="#"><img src="./image/u=2842837368,2224210375&fm=173&app=25&f=JPEG.jpg"></a>
+						</div>
+						<div class="list-son-a-content">
+							<h2><a href="#">曾公开拒绝范冰冰，如今低调娶护士，出道多年无绯闻成清流！</a></h2>
+							<p>
+								韩青，1969年7月27日生于北京，中国知名男演员，是中国国家话剧院演员。首参演电视剧《赌王风云》电视剧《赌王风云而正式出道开始走进观众的视线。之后韩青在《咱们结婚吧》、《...
+								<a href="#">[详情]</a>
+							</p>
+							<p>来源：萱妈妈扒娱乐</p>
+						</div><!-- list-son-a-content -->
+					</div><!-- list-son-a -->
+					<div class="list-son-a clearfix">
+						<div class="list-son-a-img">
+							<a href="#"><img src="./image/u=1570526862,2158072572&fm=173&app=25&f=JPEG.jpg"></a>
+						</div>
+						<div class="list-son-a-content">
+							<h2><a href="#">谢霆锋说出男艺人不愿和杨幂拍亲热戏的原因</a></h2>
+							<p>
+							杨幂作为时下当红女星，被称为85后小花旦，在80后心中是女神一般的存在，近几年在娱乐圈关注度只增不减人气极高，就连王思聪也是杨幂的粉丝，也正因为如此，不少网友和粉丝很好奇议...
+								<a href="#">[详情]</a>
+							</p>
+							<p>来源：大娱小众</p>
+						</div><!-- list-son-a-content -->
+					</div><!-- list-son-a -->
+					<div class="list-son-a clearfix">
+						<div class="list-son-a-img">
+							<a href="#"><img src="./image/u=2475699373,2105224207&fm=173&app=25&f=JPEG.jpg"></a>
+						</div>
+						<div class="list-son-a-content">
+							<h2><a href="#">开心一刻：老爷子对老婆动了歪念，一直想不到好办法，直到那天</a></h2>
+							<p>
+								【开心一刻由西江编辑】本人出租车司机一名，昨天晚上两个男女学生打的，我们谈好的30，上车后女的说：快点吧，再晚点学校大门就关了!男的说：师傅，我先给你车费吧!他他掏出一张十块...
+								<a href="#">[详情]</a>
+							</p>
+							<p>来源：西江印记</p>
+						</div><!-- list-son-a-content -->
+					</div><!-- list-son-a -->
+					<div class="list-son-b">
+						<div class="list-son-b-img slide-a">
+							<img src="./image/u=1456625515,1958668986&fm=76.jpg" >
+							<a href="#">鼠标</a>
+							<div class="slide-div slide-div-g hide">
+								<div class="slide-div-a"><a href="#">鼠标</a></div>
+								<div class="slide-div-b">
+									<a href="#">百度一下</a>
+								</div>
+							</div><!-- slide-div -->
+						</div><!-- list-son-b-img -->
+						<div class="list-son-b-img slide-b">
+							<img src="./image/u=3543036753,3688905161&fm=76.jpg">
+							<a href="#">泰国六日游</a>
+							<div class="slide-div slide-div-h hide">
+								<div class="slide-div-a"><a href="#">泰国六日游</a></div>
+								<div class="slide-div-b">
+									<a href="#">百度一下</a>
+								</div>
+							</div><!-- slide-div -->
+						</div><!-- list-son-b-img -->
+						<div class="list-son-b-img slide-c">
+							<img src="./image/u=1350939149,1882009192&fm=76.jpg">
+							<a href="#">英语的培训机构</a>
+							<div class="slide-div slide-div-c hide">
+								<div class="slide-div-a"><a href="#">英语的培训机构</a></div>
+								<div class="slide-div-b">
+									<a href="#">百度一下</a>
+								</div>
+							</div><!-- slide-div -->
+						</div><!-- list-son-b-img -->
+						<div class="list-son-b-img slide-d">
+							<img src="./image/u=1126323125,1525201882&fm=76.jpg">
+							<a href="#">鼠标排行</a>
+							<div class="slide-div slide-div-d hide">
+								<div class="slide-div-a"><a href="#">鼠标排行</a></div>
+								<div class="slide-div-b">
+									<a href="#">百度一下</a>
+								</div>
+							</div><!-- slide-div -->
+						</div><!-- list-son-b-img -->
+						<div class="list-son-b-img slide-e">
+							<img src="./image/u=716726343,3919697061&fm=76.jpg">
+							<a href="#">桥头排骨</a>
+							<div class="slide-div slide-div-e hide">
+								<div class="slide-div-a"><a href="#">桥头排骨</a></div>
+								<div class="slide-div-b">
+									<a href="#">百度一下</a>
+								</div>
+							</div><!-- slide-div -->
+						</div><!-- list-son-b-img -->
+						<div class="list-son-b-img slide-f">
+							<img src="./image/u=1511741520,2095785594&fm=76.jpg">
+							<a href="#">杭州一日游</a>
+							<div class="slide-div slide-div-f hide">
+								<div class="slide-div-a"><a href="#">杭州一日游</a></div>
+								<div class="slide-div-b">
+									<a href="#">百度一下</a>
+								</div>
+							</div><!-- slide-div -->
+						</div><!-- list-son-b-img -->
+					</div><!-- list-son-b -->
+				</div><!-- list-son-one -->
+				<div class="list-son-one hide">
+					<div class="list-son-a clearfix">
+						<div class="list-son-a-img">
+							<a href="#"><img src="./image/u=3577692388,3752559190&fm=173&app=25&f=JPEG.jpg"></a>
+						</div>
+						<div class="list-son-a-content">
+							<h2><a href="#">马云客观的说出了四位最喜欢的女演员，虽然意外但是也实至名归</a></h2>
+							<p>
+								马云虽然是个商人，但是却也时不时来娱乐圈逛一遭，比如唱歌、拍电影等，和娱乐圈的好多人也有不少交情。尤其是和赵薇，虽然他曾否认过和赵薇只不过见过那么两次面，和赵薇的关系也只是...
+								<a href="#">[详情]</a>
+							</p>
+							<p>来源：据说娱乐</p>
+						</div><!-- list-son-a-content -->
+					</div><!-- list-son-a -->
+					<div class="list-son-a clearfix">
+						<div class="list-son-a-img">
+							<a href="#"><img src="./image/u=2348136098,3861857788&fm=173&app=25&f=JPEG.jpg"></a>
+						</div>
+						<div class="list-son-a-content">
+							<h2><a href="#">看了刘涛博鳌现场无P照，大气优雅，网友：更喜欢关悦的学霸气质</a></h2>
+							<p>
+								现在娱乐圈的明星有时候真的是让人觉得很厉害，只要在一个领域做的好，在其他领域就很容易开展工作了，例如有些明星跨界已经是常事了，但是明星参加博鳌会应该还是很厉害的。有人晒出了刘...
+								<a href="#">[详情]</a>
+							</p>
+							<p>来源：随煮娱</p>
+						</div><!-- list-son-a-content -->
+					</div><!-- list-son-a -->
+					<div class="list-son-a clearfix">
+						<div class="list-son-a-img">
+							<a href="#"><img src="./image/u=2842837368,2224210375&fm=173&app=25&f=JPEG.jpg"></a>
+						</div>
+						<div class="list-son-a-content">
+							<h2><a href="#">曾公开拒绝范冰冰，如今低调娶护士，出道多年无绯闻成清流！</a></h2>
+							<p>
+								韩青，1969年7月27日生于北京，中国知名男演员，是中国国家话剧院演员。首参演电视剧《赌王风云》电视剧《赌王风云而正式出道开始走进观众的视线。之后韩青在《咱们结婚吧》、《...
+								<a href="#">[详情]</a>
+							</p>
+							<p>来源：萱妈妈扒娱乐</p>
+						</div><!-- list-son-a-content -->
+					</div><!-- list-son-a -->
+					<div class="list-son-a clearfix">
+						<div class="list-son-a-img">
+							<a href="#"><img src="./image/u=1570526862,2158072572&fm=173&app=25&f=JPEG.jpg"></a>
+						</div>
+						<div class="list-son-a-content">
+							<h2><a href="#">谢霆锋说出男艺人不愿和杨幂拍亲热戏的原因</a></h2>
+							<p>
+							杨幂作为时下当红女星，被称为85后小花旦，在80后心中是女神一般的存在，近几年在娱乐圈关注度只增不减人气极高，就连王思聪也是杨幂的粉丝，也正因为如此，不少网友和粉丝很好奇议...
+								<a href="#">[详情]</a>
+							</p>
+							<p>来源：大娱小众</p>
+						</div><!-- list-son-a-content -->
+					</div><!-- list-son-a -->
+					<div class="list-son-a clearfix">
+						<div class="list-son-a-img">
+							<a href="#"><img src="./image/u=2475699373,2105224207&fm=173&app=25&f=JPEG.jpg"></a>
+						</div>
+						<div class="list-son-a-content">
+							<h2><a href="#">开心一刻：老爷子对老婆动了歪念，一直想不到好办法，直到那天</a></h2>
+							<p>
+								【开心一刻由西江编辑】本人出租车司机一名，昨天晚上两个男女学生打的，我们谈好的30，上车后女的说：快点吧，再晚点学校大门就关了!男的说：师傅，我先给你车费吧!他他掏出一张十块...
+								<a href="#">[详情]</a>
+							</p>
+							<p>来源：西江印记</p>
+						</div><!-- list-son-a-content -->
+					</div><!-- list-son-a -->
+					<div class="list-son-b">
+						<div class="list-son-b-img slide-a">
+							<img src="./image/u=1456625515,1958668986&fm=76.jpg" >
+							<a href="#">鼠标</a>
+							<div class="slide-div slide-div-g hide">
+								<div class="slide-div-a"><a href="#">鼠标</a></div>
+								<div class="slide-div-b">
+									<a href="#">百度一下</a>
+								</div>
+							</div><!-- slide-div -->
+						</div><!-- list-son-b-img -->
+						<div class="list-son-b-img slide-b">
+							<img src="./image/u=3543036753,3688905161&fm=76.jpg">
+							<a href="#">泰国六日游</a>
+							<div class="slide-div slide-div-h hide">
+								<div class="slide-div-a"><a href="#">泰国六日游</a></div>
+								<div class="slide-div-b">
+									<a href="#">百度一下</a>
+								</div>
+							</div><!-- slide-div -->
+						</div><!-- list-son-b-img -->
+						<div class="list-son-b-img slide-c">
+							<img src="./image/u=1350939149,1882009192&fm=76.jpg">
+							<a href="#">英语的培训机构</a>
+							<div class="slide-div slide-div-c hide">
+								<div class="slide-div-a"><a href="#">英语的培训机构</a></div>
+								<div class="slide-div-b">
+									<a href="#">百度一下</a>
+								</div>
+							</div><!-- slide-div -->
+						</div><!-- list-son-b-img -->
+						<div class="list-son-b-img slide-d">
+							<img src="./image/u=1126323125,1525201882&fm=76.jpg">
+							<a href="#">鼠标排行</a>
+							<div class="slide-div slide-div-d hide">
+								<div class="slide-div-a"><a href="#">鼠标排行</a></div>
+								<div class="slide-div-b">
+									<a href="#">百度一下</a>
+								</div>
+							</div><!-- slide-div -->
+						</div><!-- list-son-b-img -->
+						<div class="list-son-b-img slide-e">
+							<img src="./image/u=716726343,3919697061&fm=76.jpg">
+							<a href="#">桥头排骨</a>
+							<div class="slide-div slide-div-e hide">
+								<div class="slide-div-a"><a href="#">桥头排骨</a></div>
+								<div class="slide-div-b">
+									<a href="#">百度一下</a>
+								</div>
+							</div><!-- slide-div -->
+						</div><!-- list-son-b-img -->
+						<div class="list-son-b-img slide-f">
+							<img src="./image/u=1511741520,2095785594&fm=76.jpg">
+							<a href="#">杭州一日游</a>
+							<div class="slide-div slide-div-f hide">
+								<div class="slide-div-a"><a href="#">杭州一日游</a></div>
+								<div class="slide-div-b">
+									<a href="#">百度一下</a>
+								</div>
+							</div><!-- slide-div -->
+						</div><!-- list-son-b-img -->
+					</div><!-- list-son-b -->
+				</div><!-- list-son-one -->
+				<div class="list-son-one hide">
+					<div class="list-son-a clearfix">
+						<div class="list-son-a-img">
+							<a href="#"><img src="./image/u=4220496267,2606253357&fm=173&app=25&f=JPEG.jpg"></a>
+						</div>
+						<div class="list-son-a-content">
+							<h2><a href="#">为何纠察兵退伍时，总是选择偷偷离开？原来怕人“报复”!</a></h2>
+							<p>
+								解放军部队中有很多兵种，比如炊事班、消防兵、文艺兵等等，每一个兵种代表着不同的部门，在他们所有人的合作下，让部队变得更加有序，但是部队中却有一种兵种受到很多人的白眼！毕竟在...
+								<a href="#">[详情]</a>
+							</p>
+							<p>来源：据说娱乐</p>
+						</div><!-- list-son-a-content -->
+					</div><!-- list-son-a -->
+					<div class="list-son-a clearfix">
+						<div class="list-son-a-img">
+							<a href="#"><img src="./image/u=2348136098,3861857788&fm=173&app=25&f=JPEG.jpg"></a>
+						</div>
+						<div class="list-son-a-content">
+							<h2><a href="#">看了刘涛博鳌现场无P照，大气优雅，网友：更喜欢关悦的学霸气质</a></h2>
+							<p>
+								现在娱乐圈的明星有时候真的是让人觉得很厉害，只要在一个领域做的好，在其他领域就很容易开展工作了，例如有些明星跨界已经是常事了，但是明星参加博鳌会应该还是很厉害的。有人晒出了刘...
+								<a href="#">[详情]</a>
+							</p>
+							<p>来源：随煮娱</p>
+						</div><!-- list-son-a-content -->
+					</div><!-- list-son-a -->
+					<div class="list-son-a clearfix">
+						<div class="list-son-a-img">
+							<a href="#"><img src="./image/u=2842837368,2224210375&fm=173&app=25&f=JPEG.jpg"></a>
+						</div>
+						<div class="list-son-a-content">
+							<h2><a href="#">曾公开拒绝范冰冰，如今低调娶护士，出道多年无绯闻成清流！</a></h2>
+							<p>
+								韩青，1969年7月27日生于北京，中国知名男演员，是中国国家话剧院演员。首参演电视剧《赌王风云》电视剧《赌王风云而正式出道开始走进观众的视线。之后韩青在《咱们结婚吧》、《...
+								<a href="#">[详情]</a>
+							</p>
+							<p>来源：萱妈妈扒娱乐</p>
+						</div><!-- list-son-a-content -->
+					</div><!-- list-son-a -->
+					<div class="list-son-a clearfix">
+						<div class="list-son-a-img">
+							<a href="#"><img src="./image/u=1570526862,2158072572&fm=173&app=25&f=JPEG.jpg"></a>
+						</div>
+						<div class="list-son-a-content">
+							<h2><a href="#">谢霆锋说出男艺人不愿和杨幂拍亲热戏的原因</a></h2>
+							<p>
+							杨幂作为时下当红女星，被称为85后小花旦，在80后心中是女神一般的存在，近几年在娱乐圈关注度只增不减人气极高，就连王思聪也是杨幂的粉丝，也正因为如此，不少网友和粉丝很好奇议...
+								<a href="#">[详情]</a>
+							</p>
+							<p>来源：大娱小众</p>
+						</div><!-- list-son-a-content -->
+					</div><!-- list-son-a -->
+					<div class="list-son-a clearfix">
+						<div class="list-son-a-img">
+							<a href="#"><img src="./image/u=2475699373,2105224207&fm=173&app=25&f=JPEG.jpg"></a>
+						</div>
+						<div class="list-son-a-content">
+							<h2><a href="#">开心一刻：老爷子对老婆动了歪念，一直想不到好办法，直到那天</a></h2>
+							<p>
+								【开心一刻由西江编辑】本人出租车司机一名，昨天晚上两个男女学生打的，我们谈好的30，上车后女的说：快点吧，再晚点学校大门就关了!男的说：师傅，我先给你车费吧!他他掏出一张十块...
+								<a href="#">[详情]</a>
+							</p>
+							<p>来源：西江印记</p>
+						</div><!-- list-son-a-content -->
+					</div><!-- list-son-a -->
+					<div class="list-son-b">
+						<div class="list-son-b-img">
+							<img src="./image/u=1456625515,1958668986&fm=76.jpg" >
+							<a href="#">鼠标</a>
+							<div class="slide-div hide">
+								<div class="slide-div-a"><a href="#">鼠标</a></div>
+								<div class="slide-div-b">
+									<a href="#">百度一下</a>
+								</div>
+							</div><!-- slide-div -->
+						</div><!-- list-son-b-img -->
+						<div class="list-son-b-img">
+							<img src="./image/u=3543036753,3688905161&fm=76.jpg">
+							<a href="#">泰国六日游</a>
+							<div class="slide-div hide">
+								<div class="slide-div-a"><a href="#">泰国六日游</a></div>
+								<div class="slide-div-b">
+									<a href="#">百度一下</a>
+								</div>
+							</div><!-- slide-div -->
+						</div><!-- list-son-b-img -->
+						<div class="list-son-b-img">
+							<img src="./image/u=1350939149,1882009192&fm=76.jpg">
+							<a href="#">英语的培训机构</a>
+							<div class="slide-div hide">
+								<div class="slide-div-a"><a href="#">英语的培训机构</a></div>
+								<div class="slide-div-b">
+									<a href="#">百度一下</a>
+								</div>
+							</div><!-- slide-div -->
+						</div><!-- list-son-b-img -->
+						<div class="list-son-b-img">
+							<img src="./image/u=1126323125,1525201882&fm=76.jpg">
+							<a href="#">鼠标排行</a>
+							<div class="slide-div hide">
+								<div class="slide-div-a"><a href="#">鼠标排行</a></div>
+								<div class="slide-div-b">
+									<a href="#">百度一下</a>
+								</div>
+							</div><!-- slide-div -->
+						</div><!-- list-son-b-img -->
+						<div class="list-son-b-img">
+							<img src="./image/u=716726343,3919697061&fm=76.jpg">
+							<a href="#">桥头排骨</a>
+							<div class="slide-div hide">
+								<div class="slide-div-a"><a href="#">桥头排骨</a></div>
+								<div class="slide-div-b">
+									<a href="#">百度一下</a>
+								</div>
+							</div><!-- slide-div -->
+						</div><!-- list-son-b-img -->
+						<div class="list-son-b-img">
+							<img src="./image/u=1511741520,2095785594&fm=76.jpg">
+							<a href="#">杭州一日游</a>
+							<div class="slide-div hide">
+								<div class="slide-div-a"><a href="#">杭州一日游</a></div>
+								<div class="slide-div-b">
+									<a href="#">百度一下</a>
+								</div>
+							</div><!-- slide-div -->
+						</div><!-- list-son-b-img -->
+					</div><!-- list-son-b -->
+				</div><!-- list-son-one -->				
+				<script type="text/javascript">
+					$(".list-son-b-img").mouseover(function(){
+						$(this).children(".slide-div").slideDown("fast");
+					});
+					$(".list-son-b-img").mouseleave(function(){
+						$(this).children(".slide-div").slideUp("fast");
+					});
+					$(".left-select-list li").click(function(){
+						$("li").removeClass("selected");
+						$(this).addClass("selected");
+						var index = $(this).index();
+						$(".list-son .list-son-one").eq(index).removeClass("hide").siblings().addClass("hide");
+					});
+				</script>
+			</div><!-- list-son -->
+		</div><!-- content-d-left -->	
+		<div class="content-d-right">
+			<div class="content-d-right-a">
+				<img src="./image/522a19f75509236298530e1508f80faf.jpg">
+			</div><!-- content-d-right-a -->
+			<div class="content-d-right-b">
+				 <div class="content-d-right-b-a">
+				 	<p>每日优惠</p>
+				 </div><!-- content-d-right-b-a -->
+				 <div class="content-d-right-b-b">
+				 	<span><p>懒人厨房，美味食谱</p></span>
+				 	<span><a href="#">抢></a></span>
+				 </div><!-- content-d-right-b-b -->
+			</div><!-- content-d-right-b -->
+			<div class="content-d-right-c">
+				 <div class="content-d-right-c-a clearfix">
+				 	<img src="./image/icon1.0e7de42.png">
+				 	<a href="#">更多>></a>
+				 </div><!-- content-d-right-c-a -->
+				 <div class="content-d-right-c-b">
+				 	<button class="scroll-left-x hide"><img src="./image/a-left.40f0bff.png"></button>
+					<button class="scroll-right-x hide"><img src="./image/a-right.c4ea321.png"></button>
+				 	<div class="content-d-right-c-b-img-scroll">
+				 		<ul class="clearfix">
+				 			<li>
+				 				<img src="./image/c7241dd9bb383c83452a3feff7ba6964.png">
+				 				<img src="./image/c1a192d474927c1222c0d07f96f1b054.png">
+				 				<img src="./image/1d0d163b5ea40f098b26fd393c8dacf9.png">
+				 			</li>
+				 			<li>
+				 				<img src="./image/5eb05402df4ada5d11790a6c95e70196.png">
+				 				<img src="./image/8d28e0532aa3ea728d68c9cd4f6410eb.png">
+				 				<img src="./image/87c2ac358ca6d9e36434aaf79132cba5.png">
+				 			</li>
+				 			<li>
+				 				<img src="./image/a7d85fbfa248645529305fcec9007a58.png">
+				 				<img src="./image/adcfe91a1c5481d00a17746568f0725b.png">
+				 				<img src="./image/64220b6a6047f6c395a3b54001e953bf.png">
+				 			</li>
+				 		</ul>
+				 	</div><!-- content-d-right-c-b-img-scroll -->
+				 	<script type="text/javascript">
+				 		$(function(){
+				 			function clikLeft(){
+								$(".content-d-right-c-b-img-scroll ul").animate({
+									left:'-=220px'
+								},500,function(){
+									$(".content-d-right-c-b-img-scroll ul").css({"left":"-220px"});
+									$(".content-d-right-c-b-img-scroll ul li").first().insertAfter($(".content-d-right-c-b-img-scroll ul li").last());
+								});
+							}
+ 							$(".scroll-left-x").click(function(){
+								clikLeft();
+							});
+							$(".scroll-right-x").click(function(){
+								$(".content-d-right-c-b-img-scroll ul").animate({
+									left:'+=220px'
+								},500,function(){
+									$('.content-d-right-c-b-img-scroll ul').css({"left":"-220px"});
+									$('.content-d-right-c-b-img-scroll ul li').last().insertBefore($(".content-d-right-c-b-img-scroll ul li").first());
+								});
+							});	
+							setInterval(function(){
+								clikLeft();
+							},2000);
+
+ 						});
+ 						$(".content-d-right-c-b").mouseover(function(){
+ 							$(".content-d-right-c-b button").removeClass("hide").addClass("show");
+ 						});
+ 						$(".content-d-right-c-b").mouseout(function(){
+ 							$(".content-d-right-c-b button").removeClass("show").addClass("hide");
+ 						});
+				 	</script>
+				 </div><!-- content-d-right-c-b -->
+				 <div class="content-d-right-c-c">
+				 	<ul>
+				 		<li><a href="#">周公解梦</a></li>
+				 		<li><a href="#">万年历</a></li>
+				 		<li><a href="#">信用卡还款</a></li>
+				 		<li><a href="#">生辰八字</a></li>
+				 	</ul>
+				 	<ul>
+				 		<li><a href="#">星座运势</a></li>
+				 		<li><a href="#">火车票</a></li>
+				 		<li><a href="#">常用电话</a></li>
+				 		<li><a href="#">菜谱大全</a></li>
+				 	</ul>
+				 	<ul>
+				 		<li><a href="#">彩票开奖</a></li>
+				 		<li><a href="#">身份证</a></li>
+				 		<li><a href="#">号码归属地</a></li>
+				 		<li><a href="#">酒店预订</a></li>
+				 	</ul>
+				 </div><!-- content-d-right-c-c -->
+			 </div><!-- content-d-right-c -->
+
+			 <div class="content-d-right-cc">
+				 <div class="content-d-right-cc-a clearfix">
+				 	<img src="./image/icon2.feb651e.png">
+				 	<a href="#">更多>></a>
+				 </div><!-- content-d-right-cc-a -->
+				<div class="content-d-right-cc-b">
+				 	<button class="scroll-left-xc hide"><img src="./image/a-left.40f0bff.png"></button>
+					<button class="scroll-right-xc hide"><img src="./image/a-right.c4ea321.png"></button>
+				 	<div class="content-d-right-cc-b-img-scroll">
+				 		<ul class="clearfix">
+				 			<li>
+				 				<img src="./image/c7241dd9bb383c83452a3feff7ba6964.png">
+				 				<img src="./image/c1a192d474927c1222c0d07f96f1b054.png">
+				 				<img src="./image/1d0d163b5ea40f098b26fd393c8dacf9.png">
+				 			</li>
+				 			<li>
+				 				<img src="./image/1d0d163b5ea40f098b26fd393c8dacf9.png">
+				 				<img src="./image/d33c513598e35245bcae9ada4f0e538a.png">
+				 				<img src="./image/d6dd4ff7d540a85c289f88ff0d007b60.png">
+				 			</li>
+				 			<li>
+				 				<img src="./image/a7d85fbfa248645529305fcec9007a58.png">
+				 				<img src="./image/adcfe91a1c5481d00a17746568f0725b.png">
+				 				<img src="./image/64220b6a6047f6c395a3b54001e953bf.png">
+				 			</li>
+				 		</ul>
+				 	</div><!-- content-d-right-cc-b-img-scroll -->
+				 	<script type="text/javascript">
+				 		$(function(){
+				 			function clickLeftc(){
+				 				$(".content-d-right-cc-b-img-scroll ul").animate({
+									left:'-=220px'
+								},500,function(){
+									$(".content-d-right-cc-b-img-scroll ul").css({"left":"-220px"});
+									$(".content-d-right-cc-b-img-scroll ul li").first().insertAfter($(".content-d-right-cc-b-img-scroll ul li").last());
+								});
+				 			}
+ 							$(".scroll-left-xc").click(function(){
+								clickLeftc();
+							});
+							$(".scroll-right-xc").click(function(){
+								$(".content-d-right-cc-b-img-scroll ul").animate({
+									left:'+=220px'
+								},500,function(){
+									$('.content-d-right-cc-b-img-scroll ul').css({"left":"-220px"});
+									$('.content-d-right-cc-b-img-scroll ul li').last().insertBefore($(".content-d-right-cc-b-img-scroll ul li").first());
+								});
+							});	
+							setInterval(function(){
+								clickLeftc();
+							},2000)
+ 						});
+ 						$(".content-d-right-cc-b").mouseover(function(){
+ 							$(".content-d-right-cc-b button").removeClass("hide").addClass("show");
+ 						});
+ 						$(".content-d-right-cc-b").mouseout(function(){
+ 							$(".content-d-right-cc-b button").removeClass("show").addClass("hide");
+ 						});
+				 	</script>
+				 </div><!-- content-d-right-cc-b -->
+				 <div class="content-d-right-cc-c">
+				 	<ul>
+				 		<li><a href="#">58到家</a></li>
+				 		<li><a href="#">e家帮</a></li>
+				 		<li><a href="#">咕咚网</a></li>
+				 		<li><a href="#">啄木鸟修家电</a></li>
+				 		<li><a href="#">神州租车</a></li>
+				 	</ul>
+				 	<ul>
+				 		<li><a href="#">叮当块药</a></li>
+				 		<li><a href="#">大麦网</a></li>
+				 		<li><a href="#">下厨房</a></li>
+				 		<li><a href="#">本来生活</a></li>
+				 		<li><a href="#">飞猪旅行</a></li>
+				 	</ul>
+				 	<ul>
+				 		<li><a href="#">万师傅</a></li>
+				 		<li><a href="#">河狸家</a></li>
+				 		<li><a href="#">达达跑腿</a></li>
+				 		<li><a href="#">好大夫</a></li>
+				 		<li><a href="#">百度传课</a></li>
+				 	</ul>
+				 </div><!-- content-d-right-cc-c -->
+			 </div><!-- content-d-right-cc -->
+		</div><!-- content-d-right -->
+	</div><!-- content-d -->
+	<div class="ad">
+		<div class="ad-content">
+			<div class="ad-content-a clearfix">
+				<div class="ad-content-a-img">
+					<img src="./image/extra-gain.1bf90ae.png">
+				</div>
+				<div class="ad-content-a-ul">
+					<ul>
+						<li>赚外快</li>
+						<li><a href="#">宝驾租车，车主招募，月赚3000-5000</a></li>
+						<li><a href="#">爱大厨，兼职厨师，月薪3000+</a></li>
+						<li><a href="#">58到家，保洁人员，月薪5500-6000</a></li>
+					</ul>
+				</div>
+			</div><!-- ad-content-a -->
+			<div class="ad-content-b clearfix">
+				<div class="ad-content-b-img">
+					<img src="./image/join.cded16d.png">
+				</div>
+				<div class="ad-content-b-div">
+					<a href="#">咨询&反馈</a>
+					<p>我是O2O商家</p>
+					<p>我要入驻hao到家</p>
+				</div>
+			</div><!-- ad-content-b -->
+		</div><!-- ad-content -->
+	</div><!-- ad -->
+	<div class="bottom">
+		<div class="bottom-content clearfix">
+			<ul class="bottom-content-a">
+				<li><a href="#">关于我们</a></li>
+				<li><a href="#">常见问题</a></li>
+				<li><a href="#">一键反馈</a></li>
+				<li><a href="#">全站地图</a></li>
+				<li>京ICP证030173号</li>
+			</ul>
+			<ul class="bottom-content-b">
+				<li class="bg-a"><div></div><a href="#">官方微博</a></li>
+				<li class="bg-b"><div></div><a href="#">收藏本站</a></li>
+				<li class="bg-c"><div></div><a href="#">下载客户端</a></li>
+			</ul>
+		</div><!-- bottom-content -->
+	</div><!-- bottom -->
+</body>
+</html>
